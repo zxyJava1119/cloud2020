@@ -76,6 +76,7 @@ public class PaymentController {
     @GetMapping(value = "/payment/feign/timeout")
     public String paymentTimeout(){
         //System.out.println("v1.1");
+        //System.out.println("master commit");
         try {
             TimeUnit.SECONDS.sleep(3);
         } catch (InterruptedException e) {
