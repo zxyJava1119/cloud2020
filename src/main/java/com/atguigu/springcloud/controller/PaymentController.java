@@ -72,6 +72,7 @@ public class PaymentController {
 
     //OpenFeign超时控制 try { TimeUnit.SECONDS.sleep(3); } catch (InterruptedException e) { e.printStackTrace(); }
     //        return serverPort;
+
     @GetMapping(value = "/payment/feign/timeout")
     public String paymentTimeout(){
         try {
